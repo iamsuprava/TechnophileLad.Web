@@ -1,0 +1,126 @@
+.app__findus {
+  background: #FFFFFF;
+}
+
+.headtext__cormorant {
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 47px;
+  margin-bottom: 3rem;
+  /* or 121% */
+
+  letter-spacing: -0.02em;
+  text-align: left;
+  align-items: left;
+  align-self: left;
+  align-content: left;
+}
+
+.p__cormorant2 {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 29.9px;
+  font-size: 23px;
+  padding-bottom: 30px;
+  padding-top: 90px;
+
+  letter-spacing: -0.015em;
+}
+
+
+#findus_img_web {
+  display: flex;
+}
+
+#findus_img_android {
+  display: none;
+}
+
+@media screen and (max-width: 1150px) {
+  #findus_img_web {
+    display: none;
+  }
+
+  .headtext__cormorant {
+    margin-bottom: 0;
+  }
+
+  #findus_img_android {
+    display: flex;
+    width: 50%;
+  }
+  .p__cormorant2 {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: "tnum" on, "lnum" on;
+    line-height: 29.9px;
+    font-size: 23px;
+    padding-bottom: 30px;
+    padding-top: 90px;
+  
+    letter-spacing: -0.015em;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #findus_img_web {
+    display: none;
+  }
+
+  #findus_img_android {
+    display: flex;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #findus_img_web {
+    display: none;
+  }
+
+  #findus_img_android {
+    display: flex;
+    width: 80%;
+  }
+}
+
+
+
+@media screen and (max-width: 420px) {
+  #findus_img_web {
+    display: none;
+  }
+
+  #findus_img_android {
+    display: flex;
+    width: 80%;
+  }
+  .p__cormorant2 {
+    font-family: var(--font-base);
+    color: var(--color-white);
+  
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: "tnum" on, "lnum" on;
+  
+  
+    padding-bottom: 30px;
+    padding-top: 90px;
+  
+    letter-spacing: -0.015em;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

@@ -1,0 +1,308 @@
+:root {
+  --font-base: 'Inter', serif;
+  --font-alt: 'Inter', sans-serif;
+  
+ 
+}
+/* 
+  :root {
+    --color-grey-primary: #0B0D22;
+    --color-white-txt: #f6f6f6;
+    --color-yellow-primary: goldenrod;   
+    --color-orange-primary: darkorange;
+    --color-green-primary: mediumseagreen;
+  }
+   
+  html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .App{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+    /* background: var(--color-black); */
+   
+    /* background-image: url( './assets/bg.png'); */
+  .headtext__cormorant-2{
+    margin-top: 20px;
+    font-size: 39px;
+line-height: 30px;
+  }  
+
+  .headtext__Cards {
+    font-family: var(--font-base);
+    /* color: var(--color-golden); */
+    font-size: 64px;
+    color: aqua;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    /* text-transform: capitalize; */
+    /* position: flex; */
+    top: 0%;
+  }
+  
+  .productListFlex {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 50px 140px;
+  }
+
+  .productList{
+    margin-top: 2rem;
+    background: #ffffff;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    background-blend-mode: luminosity, normal;
+    border: 0.2px solid #1E2250;
+    backdrop-filter: blur(2px);
+/* top: 32.89%; */
+/* bottom: -11.33%; */
+    /* backdrop-filter: blur(8px); */
+    /* padding-left:8.75rem ;
+    padding-right:8.75rem ;
+    padding-top:1.875rem ;
+    padding-bottom:0rem ; */
+    /* padding: 32px 28px; */
+    margin-bottom: 20px;
+    opacity: 0.98;
+  }
+  /* .card_header{
+    width: 1144px;
+height: 64px;
+font-style: normal;
+font-weight: 600;
+font-size: 39px;
+line-height: 47px;
+text-align: center;
+letter-spacing: -0.02em;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+  } */
+  
+  .productCard{
+    /* opacity: 1; */
+    /* position: relative; */
+    background-color: var(--color-grey-primary);
+    /* margin: 4rem;
+    padding: 1rem;
+    flex: 1 0 25rem; */
+    /* max-width: 20.625rem;
+    max-height: 25.125rem; */
+    transition: 0.1s;
+    /* backdrop-filter: blur(8px); */
+    /* border-image: linear-gradient(#686B7C, #28293E) 65; */
+    border-color: #686B7C;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    width: 330px;
+    height: 402px;
+    background: #006DDD;
+    border-radius: 12px;
+    padding: 32px 28px;
+    gap: 214px;
+    text-align: center;
+    /* object-fit: cover;
+    object-position: 50% 50%; */
+    
+    
+  
+  }
+  
+  .productCard:hover{
+    transform: translateY(-0.5rem);
+    /* box-shadow: 0.5rem 0.75rem 1.5rem rgba(99, 113, 255, 69); */
+  }
+  
+  .productImage{
+    /* scale: 1.5; */
+    margin-top: 2rem;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .productImage:hover{
+    transform: scale(1.5);
+    
+  }
+  
+  .productCard__cart{
+    position: absolute;
+    right: 0;
+    margin: 5rem;
+    font-size: 2rem;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .productCard__wishlist{
+    position: absolute;
+    right: 3rem;
+    margin: 5rem;
+    font-size: 2rem;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .productCard__fastSelling {
+    position: absolute;
+    font-size: 2rem;
+    left: 0;
+    margin: 5rem;
+    fill: var(--color-orange-primary);
+  }
+  
+  .productCard__content {
+    text-align: center;
+    font-family: var(--font-base);
+    margin: 2rem;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+  .productName{
+    text-align: center;
+    font-family: var(--font-base);
+    font-size: 1.2rem;
+    color: var(--color-golden);
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .productName1{
+    text-align: center;
+    font-family: var(--font-base);
+    font-size: 1.2rem;
+    color: var(--color-golden);
+  }
+  
+  .displayStack__1,
+  .displayStack__2{
+    font-family: var(--font-base);
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+  .productPrice{
+    font-family: var(--font-base);
+    font-size: 1rem;
+    font-weight: thin;
+    color: var(--color-white);
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+  .productSales,
+  .productTime{
+    font-family: var(--font-base);
+    font-size: 1.1rem;
+  }
+  @media screen and (max-width: 850px) {
+    .productList {
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+    }
+    .productCard{
+      height: 200px;
+      overflow: hidden;
+      padding: 1rem;
+    }
+    .productImage{
+      display: none;
+    }
+    .productCard__content {
+      font-family: var(--font-base);
+      margin: 2rem;
+      font-size: 1.1rem;
+    }
+    
+    .productName{
+      font-family: var(--font-base);
+      font-size: 1.1rem;
+      color: var(--color-golden);
+      text-align: center;
+    }
+    .displayStack__1{
+      font-size: 1.1rem;
+      font-family: var(--font-base);
+      margin: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .displayStack__2{
+    font-family: var(--font-base);
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  }
+  @media screen and (max-width: 600px) {
+    .headtext__cormorant-2{
+      font-size: 20px;
+line-height: 24px;
+    }
+    .productListFlex {
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+    }
+    .productCard{
+      height: 200px;
+      overflow: hidden;
+      padding: 1rem;
+    }
+    .productImage{
+      display: none;
+    }
+    .productCard__content {
+      font-family: var(--font-base);
+      margin: 2rem;
+      font-size: 1.1rem;
+    }
+    
+    .productName{
+      font-family: var(--font-base);
+      font-size: 1.1rem;
+      color: var(--color-golden);
+    }
+    .displayStack__1{
+      font-size: 1.1rem;
+      font-family: var(--font-base);
+      margin: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .displayStack__2{
+    font-family: var(--font-base);
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  }
+  @media screen and (max-width: 450px) {
+    .headtext__cormorant-2{
+     
+      font-size: 20px;
+  line-height: 20px;
+    } 
+  }

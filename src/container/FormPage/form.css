@@ -1,0 +1,55 @@
+:root {
+  --font-base: 'Inter', serif;
+  --font-alt: 'Inter', sans-serif;
+  
+ 
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #ffffff;
+    font-size: --font-base;
+    overflow: hidden;
+  }
+  .form_header{
+    font-size: --font-base;
+  }
+  .form_header{
+    font-size: 20px;
+  }
+  .form_subheader{
+    font-size: 15px;
+  }
+  
+  form{
+      /* background-color: #111534; */
+      padding: 0px 60px;
+      border-radius: 10px;
+      font-size: --font-base;
+  }
+  
+  h1{
+      color: black;
+      text-align: center;
+      font-size: 39;
+      font-size: --font-base;
+  }
+  
+  button{
+      width: 100%;
+      height: 43px;
+      padding: 10px;
+      border: none;
+      background-color: #00FFF0;
+      color: white;
+      border-radius: 16px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+  }
