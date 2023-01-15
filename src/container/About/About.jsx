@@ -21,7 +21,7 @@ const About = () => (
           className="app__wrapper_img app__wrapper_img-reverse about_img"
         // data-aos="fade-right"
         >
-          <img id="about_IMG_Web" src={images.About_img_ill} alt="50Fin" />
+          <img id="about_IMG_Web" src={images.About_img_ill} alt="Technophilelad" />
         </div>
 
         <div className="app__wrapper_info">
@@ -36,7 +36,7 @@ const About = () => (
             <img
               id="about_IMG_Android"
               src={images.About_img_ill}
-              alt="50Fin"
+              alt="Technophilelad"
               style={{ margin: "0 auto" }}
             />
           </div>
