@@ -29,7 +29,7 @@ const FindUs = () => (
         </div>
         <div className="app__wrapper-content">
           <p className="p__cormorant2" data-aos="fade-up">
-            <font color="#24FEEE">Innovation is the outcome of a habit, not a random act.</font>
+            <font color="#006DDD">Innovation is the outcome of a habit, not a random act.</font>
           </p>
           <p className="p__opensans" data-aos="fade-up">
             Visit My Behance acount for more Designes or email me at technophilelad@gmail.com for business enquires.

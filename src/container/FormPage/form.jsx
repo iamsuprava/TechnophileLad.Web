@@ -78,7 +78,7 @@ const Form = () => {
   return (
     <div className="app">
       <div className="titleHolder headtext__cormorant ">
-          <h2 className="form_header"><font color="#000000">Thank you for your interest in</font> Technophile Lad</h2>
+          <h2 className="form_header"><font color="#000000">Get Connected with</font> Technophile Lad</h2>
           <p className="form_subheader" style={{color: '#006DDD'}} >Feel Free to send your quires via below form</p>
         </div>
       <form onSubmit={handleSubmit} id='form'>

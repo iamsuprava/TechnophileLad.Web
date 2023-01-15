@@ -20,7 +20,7 @@ const Member = () => (
           <font color="#000000">Ye Bhi</font> Dekh Lo
         </h1>
         <div className="app__wrapper_img" data-aos="fade-left">
-          <img id="member_img_android" src={images.memberImg} alt="finus_img" />
+          <img id="member_img_android" src={images.findus} alt="finus_img" />
         </div>
         <p
           className="p__cormorant_member"

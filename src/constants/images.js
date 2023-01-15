@@ -3,22 +3,19 @@ import bg from '../assets/bg.png';
 import About_img_ill from '../assets/About_img_ill.png';
 // import overlaybg from '../assets/overlaybg.webp';
 import spoon from '../assets/spoon.svg';
-import welcome from '../assets/welcome.png';
+
 import findus from '../assets/findus.png';
-import Members from '../assets/Members.png';
-import Logo50Fin from '../assets/Logo50Fin.webp';
+
+
 import LOGO from '../assets/LOGO.png';
 import logo2 from '../assets/logo2.png';
 import memberImg from '../assets/memberImg.png';
-import cardbg from '../assets/cardbg.webp';
+
 import CardImg from '../assets/CardImg.png';
 import CardImg1 from '../assets/CardImg1.png';
 import CardImg2 from '../assets/CardImg2.png';
 import Partners from '../assets/Partners.png';
-import iphone1 from '../assets/iphone1.webp';
-import iphone2 from '../assets/iphone2.webp';
-import iphone3 from '../assets/iphone3.webp';
-import iphone4 from '../assets/iphone4.webp';
+
 
 // import m1 from '../assets/m1.jpg';
 // import m2 from '../assets/m2.jpg';
@@ -44,8 +41,7 @@ import hero_bg from '../assets/hero_bg.png';
 
 import Partners_mobile from '../assets/Partners_mobile.png';
 
-import About_gif from '../assets/About_gif.gif';
-import About_video from '../assets/About_video.mp4';
+
 
 export default {
   bg,
@@ -53,21 +49,19 @@ export default {
   logo2,
   // overlaybg,
   spoon,
-  welcome,
+  
   findus,
-  Members,
-  Logo50Fin,
+
+  
   LOGO,
   CardImg,
   memberImg,
-  cardbg,
+ 
   CardImg1,
   CardImg2,
   Partners,
-  iphone1,
-  iphone2,
-  iphone3,
-  iphone4,
+ 
+
 
   T1,
   T2,
@@ -77,8 +71,7 @@ export default {
   // m1,
   // m2,
   // m3,
-  About_gif,
-  About_video,
+ 
   p1,
   p2,
   p3,

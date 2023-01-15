@@ -85,6 +85,7 @@ const Header = () => {
               data-aos="fade-up"
               data-aos-delay="150"
               data-aos-offset="200"
+              style={{ color: "#FFFFFF" }}
             >
               Hi this is <font color="#00FFF0">Technophile</font> Lad{" "}
             </h1>
