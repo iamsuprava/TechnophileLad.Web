@@ -97,7 +97,7 @@ const Footer = () => {
       <div className="legal">
         {/* <hr class="solid"></hr> */}
         <p className="disclaimer">
-          Disclaimer : Disclaimer bhi chiye ab?
+          Disclaimer : The views and opinions expressed in the videos on this channel are solely those of the author and do not necessarily represent the official policy or position of the channel or its parent company.
         </p>
         <p>Copyright ©2022 All rights reserved</p>
       </div>
